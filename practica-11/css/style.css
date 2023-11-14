@@ -1,0 +1,47 @@
+
+body {
+    text-align: center;
+    font: Arial, sans-serif;
+}
+
+h1,
+p,
+label {
+    color: white;
+}
+
+input[type="range"]{
+    width: 100px;
+}
+
+.card {
+    width: 450px;
+    height: 550px;
+}
+
+.img{
+    width: 400px;
+    height: 350px;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 500px;
+}
+
+#volume-container label{
+    font-weight: bold;
+    color: white;
+}
+
+#volume {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#volume-container{
+    width: 100%;
+    margin: 10px 0;
+}
